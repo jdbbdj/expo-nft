@@ -189,6 +189,16 @@ const NFTData = [
     image: assets.nft07,
     bids: [],
   },
+  {
+    id: "NFT-08",
+    name: "Abstracto soulful art",
+    creator: "Victor de la Cruz",
+    price: 18.25,
+    description:
+      "The action painter abstract expressionists were directly influenced by automatism. Pollock channelled this into producing gestural. Lorem ipsum dolor sit amet consectetur adipiscing elit consequat accumsan sapien, lectus convallis malesuada odio curae habitasse dignissim nascetur. Nulla sed velit erat vitae leo sem inceptos diam fames arcu hendrerit, quis ultrices in eleifend posuere ipsum conubia porttitor felis. Ullamcorper platea penatibus ornare egestas nulla ligula hendrerit nisl suscipit sociosqu maximus, tincidunt aptent habitant purus pharetra ultrices dapibus laoreet nisi lacinia. Porta malesuada netus vel sapien conubia porttitor aliquam ut pretium ante litora molestie senectus magna egestas sociosqu, eget aliquet fames pharetra felis posuere varius fringilla quisque in arcu montes eu ullamcorper.",
+    image: assets.nft07,
+    bids: [],
+  },
 ];
 
 export { NFTData };
