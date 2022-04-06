@@ -2,6 +2,9 @@
   "name": "pronef",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "license": "MIT",
+  "author": "James Daryl Bertiz",
+  "description": "React Native app with domain",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -11,6 +14,7 @@
   },
   "dependencies": {
     "@react-navigation/core": "^6.2.1",
+    "@react-navigation/drawer": "^6.4.1",
     "@react-navigation/native": "^6.0.8",
     "@react-navigation/stack": "^6.1.1",
     "expo": "~44.0.0",
@@ -20,6 +24,7 @@
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
     "react-native-gesture-handler": "~2.1.0",
+    "react-native-reanimated": "~2.3.1",
     "react-native-safe-area-context": "3.3.2",
     "react-native-web": "0.17.1"
   },

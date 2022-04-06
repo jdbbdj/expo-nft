@@ -1,5 +1,11 @@
 import React from "react";
-import { View, SafeAreaView, FlatList, Text } from "react-native";
+import {
+  View,
+  SafeAreaView,
+  FlatList,
+  Text,
+  TouchableOpacity,
+} from "react-native";
 import { COLORS, NFTData } from "../../constants";
 import { HomeHeader, FocusedStatusBar, NFTCard } from "../../components";
 
@@ -7,6 +13,7 @@ const Home = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <FocusedStatusBar background={COLORS.secondary} />
+
       <View style={{ flex: 1 }}>
         <View style={{ zIndex: 0 }}>
           <FlatList
